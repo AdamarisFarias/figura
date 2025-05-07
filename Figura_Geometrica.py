@@ -12,8 +12,4 @@ class figura_geometrca
         self.alto = alto
 def str_(self):
     return f'alto: {self.alto}, ancho: {self.ancho}´
-
-class cuadrado(figura_geometrca):
-    def __init__(self, alto= 0, ancho= 0):
-        super().__init__(alto, ancho)
-        self.
+    
